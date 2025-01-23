@@ -87,7 +87,7 @@ static void __exit panic_handler_exit(void) {
 module_init(panic_handler_init);
 module_exit(panic_handler_exit);
 
-MODULE_LICENSE("GPL");
+MODULE_LICENSE("GPL_V3");
 MODULE_AUTHOR("Umar");
 MODULE_DESCRIPTION("A kernel module to customize the kernel panic handler");
 MODULE_VERSION("1.0");
